@@ -1,0 +1,44 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #202020;
+    -fx-background-color: #333;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#f2f2f2, #d6d6d6);
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #333;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#a3a3a3, #909090);
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: #f2f2f2;
+}
+
+.imageView {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 2 );
+}
+
+#contentLabel {
+    -fx-font-size: 14px;
+}
+
+#titleLabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#startStopSlideshowButton {
+    -fx-background-color: linear-gradient(#4CAF50, #2E7D32);
+    -fx-text-fill: white;
+}
+
+#startStopSlideshowButton:hover {
+    -fx-background-color: linear-gradient(#66BB6A, #43A047);
+}
